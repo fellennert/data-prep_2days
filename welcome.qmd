@@ -1,0 +1,31 @@
+---
+title: "welcome"
+author: "Felix Lennert"
+editor: visual
+---
+
+# Intro
+
+## Why this course?
+
+-   Data data data
+
+-   R has some distinctive advantages
+
+## Why R?
+
+## Who am I?
+
+## Who are you?
+
+# Housekeeping
+
+## What to expect
+
+## Schedule
+
+## Where to find the material
+
+# Theoretical introduction
+
+## Tidy data
