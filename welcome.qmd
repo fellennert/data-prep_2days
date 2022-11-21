@@ -1,31 +1,165 @@
 ---
-title: "welcome"
+title: '"This one sparks joy:" data preparation for immaculate social science research'
 author: "Felix Lennert"
-editor: visual
+date: "Workshop at the CED, Sciences Po Bordeaux, 22-23/11/2022"
+format: revealjs
 ---
 
 # Intro
+
+![](figures/kondo_tidy.png)
 
 ## Why this course?
 
 -   Data data data
 
--   R has some distinctive advantages
+    ![](figures/bail_data.png)
+
+## Why this course
+
+-   Data are "the new oil"
+-   ... but just like crude oil is unusable, they have to be refined to be of value
 
 ## Why R?
 
+-   R and RStudio cover the entire process of data science
+
+    ![Source: Wickham 2016](https://d33wubrfki0l68.cloudfront.net/571b056757d68e6df81a3e3853f54d3c76ad6efc/32d37/diagrams/data-science.png)
+
+## Why R?
+
+::: incremental
+-   Community-based & for free
+
+-   The former means:
+
+    -   Lots of different packages
+
+    -   Plenty of support
+
+-   The latter implies:
+
+    -   Universities save a bunch of money
+
+    -   Companies as well
+
+    -   Arguably impacts: reproducibility, job perspectives
+:::
+
+## Why R?
+
+-   Facilitates reproducible science
+
+![](figures/replication_crisis.png)
+
+-   R -- or open-source scripting languages in general - may alleviate that
+
+    -   A recent example: [Petter Törnberg's paper](https://github.com/cssmodels/tornberg2022pnas)
+
+## Why R?
+
+::: incremental
+-   Flexibility
+
+    -   there are tons of packages available
+
+    -   if nothing suits you, you can modify whatever package or function you want
+:::
+
+## Why R?
+
+-   Job perspectives in the private sector
+
+    ![Job ads mentioning a certain skill in title (Muenchen 2019)](https://i2.wp.com/r4stats.com/wp-content/uploads/2019/05/Fig-1a-IndeedJobs-2019-1.png){width="500"}
+
+## Why R?
+
+-   Job perspectives in academia
+
+    ![Number of Google scholar hits using a particular tool (over time)](https://i2.wp.com/r4stats.com/wp-content/uploads/2017/06/Fig_2d_ScholarlyImpact2016.png){width="462"}
+
 ## Who am I?
 
+-   B.A. Political Science (2018), University of Regensburg
+
+    -   "Classic" PolSci education, focus on empirical social science research
+    -   Exposure to "classic" methods -- working with survey data, different flavors of regressions, a bit of qualitative research
+    -   Eventually, got a bit into more avantgardistic approaches of doing social science, Bachelor's thesis was a network analysis of politicians' Twittering behavior
+
+## Who am I?
+
+-   M.Sc. Computational Social Science (2021), Linköping University
+
+    -   Thorough introduction to how to harness large scale digital data to assess and describe human behavior
+
+    -   Also: training in "analytical sociology" - goal is to find, formulate, and test durable mechanisms that govern human behavior and structure societies
+
+    -   RA in [a project on text mining](https://liu.se/en/research/computational-text-analysis)
+
+## Who am I?
+
+-   Currently: Ph.D. at Institute Polytechnique de Paris (supervisor: Étienne Ollion, prospective finishing date: 2024)
+
+    -   Assessing public opinion dynamics in France
+
+    -   Working with large-scale textual data (newspaper archives)
+
+    -   We also organized [a little summer school](https://sicss.io/2022/paris/)
+
 ## Who are you?
+
+A couple of sentences on your...
+
+-   Background
+
+-   Current position
+
+-   Research interests
+
+-   What you expect from the course
 
 # Housekeeping
 
 ## What to expect
 
+-   At the beginning of every project stands a non-negligible amount of data inspection, cleaning, and transformation
+
+-   R and the `tidyverse` packages can decisively facilitate that
+
 ## Schedule
+
+-   22/11
+    -   9:30-12:00: intro + the rationale behind tidy data + RStudio projects + the pipe
+
+    -   13:00-15:00: data transformation (`dplyr`)
+
+    -   15:15-16:00: categorical data (`forcats`) + dates (`lubridate`)
+-   23/11
+    -   9:30-10:00: recap
+    -   10:00-13:00: data visualization (`ggplot2`) + exercises
+
+## Teaching rationale
+
+"Classic" R courses...
+
+-   usually try to show you very few functions
+
+-   ... and then have you do exercises that cover a very basic and narrow use case.
+
+In my opinion, this sucks as there is a small chance that the problems you may encounter in the wild can be solved with the small set of tools you have heard of so far.
+
+## Teaching rationale
+
+Hence, this course...
+
+-   ...aims to expose you to a very broad set of functions and tools
+
+-   ...will move comparably fast
+
+-   ...will be published for open access with fully reproducible code and a comprehensive description of the functions and operations that are performed, so that you can revisit the material when you actually need it
+
+-   ...will include extensive lists of further resources to facilitate your further endeavoRs
 
 ## Where to find the material
 
-# Theoretical introduction
-
-## Tidy data
+https://github.com/fellennert/data-prep_2days
