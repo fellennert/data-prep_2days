@@ -13,7 +13,7 @@ format: revealjs
 
 -   Data data data
 
-    ![](figures/bail_data.png)
+    [![Taken from Bail (n.d.)](figures/bail_data.png){width="824"}](https://cbail.github.io/textasdata/strengths-weaknesses/rmarkdown/Strengths_and_Weaknesses.html)
 
 ## Why this course
 
@@ -24,7 +24,7 @@ format: revealjs
 
 -   R and RStudio cover the entire process of data science
 
-    ![Source: Wickham 2016](https://d33wubrfki0l68.cloudfront.net/571b056757d68e6df81a3e3853f54d3c76ad6efc/32d37/diagrams/data-science.png)
+    [![Source: Wickham 2016](https://d33wubrfki0l68.cloudfront.net/571b056757d68e6df81a3e3853f54d3c76ad6efc/32d37/diagrams/data-science.png)](https://r4ds.had.co.nz/introduction.html)
 
 ## Why R?
 
@@ -50,7 +50,7 @@ format: revealjs
 
 -   Facilitates reproducible science
 
-![](figures/replication_crisis.png)
+[![](figures/replication_crisis.png)](https://www.wired.com/story/social-science-reproducibility/)
 
 -   R -- or open-source scripting languages in general - may alleviate that
 
@@ -70,13 +70,13 @@ format: revealjs
 
 -   Job perspectives in the private sector
 
-    ![Job ads mentioning a certain skill in title (Muenchen 2019)](https://i2.wp.com/r4stats.com/wp-content/uploads/2019/05/Fig-1a-IndeedJobs-2019-1.png){width="500"}
+    [![Job ads mentioning a certain skill in title (Muenchen 2019)](https://i2.wp.com/r4stats.com/wp-content/uploads/2019/05/Fig-1a-IndeedJobs-2019-1.png){width="500"}](https://r4stats.com/articles/popularity/)
 
 ## Why R?
 
 -   Job perspectives in academia
 
-    ![Number of Google scholar hits using a particular tool (over time)](https://i2.wp.com/r4stats.com/wp-content/uploads/2017/06/Fig_2d_ScholarlyImpact2016.png){width="462"}
+    [![Number of Google scholar hits using a particular tool (over time)](https://i2.wp.com/r4stats.com/wp-content/uploads/2017/06/Fig_2d_ScholarlyImpact2016.png){width="462"}](https://r4stats.com/articles/popularity/)
 
 ## Who am I?
 
@@ -98,13 +98,15 @@ format: revealjs
 
 ## Who am I?
 
--   Currently: Ph.D. at Institute Polytechnique de Paris (supervisor: Étienne Ollion, prospective finishing date: 2024)
+-   Currently: Ph.D. at Institute Polytechnique de Paris (supervisor: Étienne Ollion, prospective finishing date: 2024); affiliation with the University of Leipzig (chair for Sociological Theory, Marc Keuschnigg)
 
     -   Assessing public opinion dynamics in France
 
     -   Working with large-scale textual data (newspaper archives)
 
     -   We also organized [a little summer school](https://sicss.io/2022/paris/)
+
+    -   At Leipzig: teaching Text Mining and Computational Social Science Methods
 
 ## Who are you?
 
@@ -125,6 +127,8 @@ A couple of sentences on your...
 -   At the beginning of every project stands a non-negligible amount of data inspection, cleaning, and transformation
 
 -   R and the `tidyverse` packages can decisively facilitate that
+
+    ![](figures/ds_process_updated.png){width="789"}
 
 ## Schedule
 
